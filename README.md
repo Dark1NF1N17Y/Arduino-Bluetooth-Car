@@ -11,6 +11,8 @@ Arduino Pro Bluetooth Car Built And Programmed By Me
 
 5 - Soon AutoPilot Command!!
 
+6 - I Din't Find IR Sensor In The Website So I Changed It With Gaz Detection As A Sensor
+
 Project Design :-
 
 ![alt text](https://github.com/Dark1NF1N17Y/Arduino-Bluetooth-Car/blob/main/Project.PNG?raw=true)
