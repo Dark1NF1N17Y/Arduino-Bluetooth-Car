@@ -13,9 +13,11 @@ Arduino Pro Bluetooth Car Built And Programmed By Me
 
 6 - I Din't Find IR Sensor In The Website So I Changed It With Gaz Detection As A Sensor
 
+7 - On Invalid Input Or Something Blocks It Prints On The Screen
+
 Project Design :-
 
-![alt text](https://github.com/Dark1NF1N17Y/Arduino-Bluetooth-Car/blob/main/Project.PNG?raw=true)
+![alt text](https://github.com/Dark1NF1N17Y/Arduino-Bluetooth-Car/blob/main/Project.png?raw=true)
 
 Help Menu :-
 
