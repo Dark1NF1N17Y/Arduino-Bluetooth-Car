@@ -1,3 +1,6 @@
+#include <Adafruit_LiquidCrystal.h>
+#include <Wire.h>
+Adafruit_LiquidCrystal lcd(0);
 int rightmotor = 13;
 int leftmotor = 12;
 int sensor = 7;
@@ -6,8 +9,9 @@ int redled1 = 4;
 int redled2 = 2;
 int horn = 3;
 char command;
+
 void setup()
-{
+{ 
   pinMode(rightmotor, OUTPUT);
   pinMode(leftmotor, OUTPUT);
   pinMode(sensor, INPUT);
@@ -18,13 +22,17 @@ void setup()
   Serial.begin(500);
   digitalWrite(redled1, HIGH);
   digitalWrite(redled2, HIGH);
-  
+  lcd.begin(16, 2);
 }
 
 void loop()
 {
+  lcd.setCursor(0,0);
+  lcd.print("                ");
   if(digitalRead(sensor) == HIGH){
   Serial.println("Something Blocks Us!");
+  lcd.setCursor(0,0);
+  lcd.print("Something Blocks");
   digitalWrite(rightmotor, LOW);
   digitalWrite(leftmotor, LOW);
   digitalWrite(redled1, HIGH);
@@ -75,12 +83,15 @@ void loop()
     }
   }
   else if(command == '5'){
-    digitalWrite(horn , HIGH);
+    //digitalWrite(horn , HIGH);
+    tone(horn,3000,500);
     delay(500);
     digitalWrite(horn , LOW);
   }
   else{
   Serial.println("Wrong Input!");
+  lcd.setCursor(0,0);
+  lcd.print("Wrong Input!");
   }
   }
     }
