@@ -1,26 +1,27 @@
-# Arduino-Bluetooth-Car
+# Arduino Bluetooth Car
+
 Arduino Pro Bluetooth Car Built And Programmed By Me
 
-1 - Bluetooth Car Controlled By Mobile Phone ( Terminal APK That Sends Bluetooth Commands )
+- Bluetooth Car Controlled By Mobile Phone ( Terminal APK That Sends Bluetooth Commands )
 
-2 - Command ' h ' For Help Menu
+- Command `h` For Help Menu
 
-3 - Added Horn And Front Light As You See In The Project Design
+- Added Horn And Front Light As You See In The Project Design
 
-4 - Turn On And Off The Front Light Using 1 Command
+- Turn On And Off The Front Light Using 1 Command
 
-5 - Soon AutoPilot Command!!
+- Soon AutoPilot Command!!
 
-6 - I Din't Find IR Sensor In The Website So I Changed It With Gaz Detection As A Sensor
+- I Din't Find IR Sensor In The Website So I Changed It With Gaz Detection As A Sensor
 
-7 - On Invalid Input Or Something Blocks It Prints On The Screen
+- On Invalid Input Or Something Blocks It Prints On The Screen
+> [!NOTE]
+> No Longer Updated
 
-Project Design :-
+## Project Preview
 
 ![alt text](https://github.com/Dark1NF1N17Y/Arduino-Bluetooth-Car/blob/main/Project.png?raw=true)
 
-Help Menu :-
-
 ![alt text](https://github.com/Dark1NF1N17Y/Arduino-Bluetooth-Car/blob/main/Help-Menu.PNG?raw=true)
 
-**CopyRight 1NF1N17Y 2023**
+**&copy; CopyRight 1NF1N17Y 2023**
